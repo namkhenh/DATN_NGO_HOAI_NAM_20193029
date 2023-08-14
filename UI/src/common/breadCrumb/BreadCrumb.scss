@@ -1,0 +1,34 @@
+.MuiBreadcrumbs-li {
+    a {
+        font-size: 20px;
+        color: rgb(63, 63, 63);
+    }
+
+    p {
+        font-size: 20px;
+        color: #0099a8;
+    }
+
+    .home {
+        display: flex;
+        align-items: center;
+        svg {
+            transition: all linear 0.3s;
+            color: #868f96;
+        }
+
+        &:hover svg{
+            transition: all linear 0.3s;
+            color: #414141;
+        }
+    }
+
+    .child {
+        color: #868f96;
+        transition: all linear 0.3s;
+
+        &:hover {
+            color: #414141;
+        }
+    }
+}

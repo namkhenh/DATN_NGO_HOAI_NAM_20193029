@@ -1,0 +1,91 @@
+.s-common-input-disabled {
+    width: 100%;
+    .ms-TextField-fieldGroup {
+        border-radius: 4px;
+        height: 44px;
+        border: 2px solid #cccccc;
+        background-color: rgb(244, 244, 244);
+        >input {
+            font-size: 16px;
+            font-family: 'Roboto', sans-serif !important;
+        }
+
+        &:hover {
+            border: 2px solid #cccccc;
+        }
+    }
+
+    .ms-TextField-wrapper {
+        >label {
+            color: rgb(50, 49, 48);
+            font-size: 16px;
+            font-family: 'Roboto', sans-serif !important;
+            padding-bottom: 4px;
+        }
+    }
+}
+
+.s-common-input {
+    width: 100%;
+    .ms-TextField-wrapper {
+        >label {
+            font-size: 16px;
+            font-family: 'Roboto', sans-serif !important;
+            padding-bottom: 4px;
+        }
+    }
+
+    .ms-TextField-field {
+        height: 42px;
+        font-size: 16px;
+    }
+
+    .ms-TextField-fieldGroup {
+        height: 44px;
+        border-radius: 4px;
+        border: 2px solid #cccccc;
+        >input {
+            font-size: 16px;
+            font-family: 'Roboto', sans-serif !important;
+        }
+
+        .ms-TextField-reveal {
+            color: #818181;
+            height: 40px;
+            width: 40px;
+            cursor: pointer;
+            i {
+                bottom: 6px;
+                right: 8px;
+                font-size: 24px;
+                padding: 0;
+            }
+        }
+    }
+}
+
+.ms-TextField--multiline {
+    .ms-TextField-field {
+        height: 96px;
+    }
+
+    .ms-TextField-fieldGroup {
+        height: 98px;
+        >input {
+            font-family: 'Roboto', sans-serif !important;
+        }
+    }
+}
+
+.ms-TextField-fieldGroup::after {
+    // display: none;
+    border-color: rgba(25, 118, 210, 0.5);
+    border-width: 1px;
+    border-radius: 4px;
+}
+
+.ms-TextField-errorMessage {
+    animation-name: none !important;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif !important;
+}

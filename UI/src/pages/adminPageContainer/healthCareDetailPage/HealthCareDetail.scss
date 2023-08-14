@@ -1,0 +1,132 @@
+.healthdetail-page {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    padding: 24px;
+    position: relative;
+
+    .css-13xfq8m-MuiTabPanel-root {
+        padding: 24px 0px;
+    }
+
+    .healthdetail-page-container {
+        max-height: 100%;
+        overflow: auto;
+        padding-right: 6px;
+
+        .healthdetail-page-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #cccccc;
+            padding-bottom: 12px;
+            margin-bottom: 16px;
+
+            .page-room-name {
+                font-size: 20px;
+                font-weight: 500;
+            }
+
+            .page-header-right {
+                display: flex;
+                gap: 12px;
+
+                button {
+                    max-height: 32px;
+                }
+            }
+        }
+
+        .search-id {
+            width: 400px;
+            margin-bottom: 24px;
+        }
+
+        .healthdetail-page-info {
+            display: flex;
+            align-items: center;
+            // justify-content: space-between;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #cccccc;
+
+            .page-info-item {
+                display: flex;
+                align-items: center;
+                width: 20%;
+
+                .page-patient-name {
+                    font-size: 20px;
+                    font-weight: 500;
+                }
+
+                .page-patient-gender {
+                    padding: 2px 4px;
+                    background-color: #d3ecf3;
+                    border-radius: 4px;
+                    color: #1976d2;
+                    margin-left: 8px;
+                }
+
+                .item-content {
+                    font-weight: 500;
+                    margin-left: 8px;
+                }
+            }
+
+            .page-info-item:last-child {
+                .item-content {
+                    padding: 4px 8px;
+                    border-radius: 4px;
+                }
+            }
+        }
+
+        .healthdetail-page-cost {
+            display: flex;
+            justify-content: flex-end;
+            gap: 36px;
+            padding: 16px 0px;
+            border-bottom: 1px solid #cccccc;
+
+            .page-cost-wrap {
+                display: flex;
+                align-items: center;
+
+                .page-cost-detail {
+                    .cost-detail {
+                        font-weight: 500;
+                        font-size: 16px;
+                    }
+
+                    .cost-text {
+                        font-size: 14px;
+                    }
+                }
+
+                svg {
+                    padding: 4px;
+                    width: 32px;
+                    height: 32px;
+                    border-radius: 8px;
+                    margin-right: 8px;
+                }
+            }
+
+            .page-cost-wrap:first-child {
+                svg {
+                    color: rgb(14, 134, 94);
+                    background-color: rgb(215, 255, 213);
+                }
+            }
+
+            .page-cost-wrap:last-child {
+                svg {
+                    color: rgb(7, 141, 165);
+                    background-color: rgb(163, 244, 255);
+                }
+            }
+        }
+    }
+}

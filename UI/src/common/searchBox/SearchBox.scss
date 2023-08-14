@@ -1,0 +1,21 @@
+.ms-SearchBox {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 7px !important;
+    width: 100%;
+    border: 2px solid #cccccc;
+    height: 44px;
+    &:hover {
+            transition: all linear 0.3s;
+        border: 2px solid rgb(25, 118, 210, 0.5);
+    }
+
+}
+.ms-SearchBox::after {
+    border: 2px solid #1976d2;
+    border-radius: 7px !important;
+    position: absolute;
+    content: "";
+    pointer-events: none;
+}

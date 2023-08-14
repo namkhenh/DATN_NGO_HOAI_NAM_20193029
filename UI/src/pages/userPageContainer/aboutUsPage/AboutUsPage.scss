@@ -1,0 +1,57 @@
+.about-us-contaier {
+  padding-top: 125px;
+
+  .about-us-banner {
+    padding: 4px 320px;
+    background-size: cover;
+    background-position: center center;
+
+    img {
+      border: 2px solid #f2ab4a;
+      box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  .content {
+    padding: 0 320px;
+
+    .about-us-title {
+      font-size: 40px;
+      font-weight: 600;
+      color: #0B395C;
+      margin-top: 30px;
+    }
+
+    .about-us-sub-title {
+      font-size: 28px;
+      font-weight: 500;
+      color: #8DA700;
+      margin-top: 8px;
+      margin-bottom: 12px;
+    }
+
+    .about-us-content {
+      font-size: 16px;
+      font-weight: 400;
+      color: #000000;
+      margin-bottom: 12px;
+    }
+
+    .about-us-bold {
+      font-size: 20px;
+      font-weight: 700;
+      color: #4e4e4e;
+      padding-left: 40px;
+      margin-bottom: 12px;
+    }
+
+    .about-us-bold-content {
+      font-size: 16px;
+      font-weight: 400;
+      color: #000000;
+      padding-left: 80px;
+      margin-bottom: 12px;
+    }
+  }
+
+}

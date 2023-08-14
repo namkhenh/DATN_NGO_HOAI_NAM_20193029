@@ -1,0 +1,15 @@
+.management-page {
+  margin: 0px auto;
+  padding: 150px 320px 0px;
+  display: block;
+  background-color: #eeeeee;
+  min-height: 100vh;
+
+  .management-page-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    -webkit-box-pack: start;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,43 @@
+.doctor-contaier {
+  padding-top: 125px;
+
+  .content {
+    padding: 0 320px;
+
+    .doctor-title {
+      font-size: 40px;
+      font-weight: 600;
+      color: #0B395C;
+      margin-top: 30px;
+    }
+
+    .doctor-sub-title {
+      font-size: 28px;
+      font-weight: 500;
+      color: #8DA700;
+      margin-top: 8px;
+      margin-bottom: 12px;
+    }
+
+    .doctor-content {
+      font-size: 16px;
+      font-weight: 400;
+      color: #000000;
+      margin-bottom: 30px;
+    }
+
+    .doctor-position {
+      font-size: 32px;
+      font-weight: 500;
+      color: #0B395C;
+      margin-bottom: 30px;
+    }
+
+    .doctor-wrap {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 0px 120px;
+    }
+  }
+}

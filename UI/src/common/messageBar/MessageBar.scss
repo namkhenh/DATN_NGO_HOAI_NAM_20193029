@@ -1,0 +1,53 @@
+.css-1ta0po2-MuiSnackbar-root {
+    top: 145px !important;
+    .css-8vnh0h-MuiPaper-root-MuiAlert-root {
+        // border-top-left-radius: 12px;
+        // border-bottom-left-radius: 12px;
+        border-radius: 8px 0px 0px 8px;
+        height: 80px;
+        width: 376px;
+        color: rgb(50, 49, 48);
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif !important;
+        background-color: #ffffff;
+        border-right: 8px solid #00794E;
+        .css-1ytlwq5-MuiAlert-icon {
+            align-items: center;
+            color: #00794E;
+        }
+        .css-1pxa9xg-MuiAlert-message {
+            padding: 8px 0;
+            display: flex;
+            align-items: center;
+        }
+        .css-ki1hdl-MuiAlert-action {
+            align-items: center;
+            padding: 0 0 0 16px;
+        }
+    }
+    .css-1i9p219-MuiPaper-root-MuiAlert-root {
+        border-radius: 8px 0px 0px 8px;
+        height: 80px;
+        width: 376px;
+        color: rgb(50, 49, 48);
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif !important;
+        background-color: #ffffff;
+        border-right: 8px solid #e70000;
+        .css-1ytlwq5-MuiAlert-icon {
+            align-items: center;
+            color: #e70000;
+        }
+    
+        .css-1pxa9xg-MuiAlert-message {
+            padding: 8px 0;
+            display: flex;
+            align-items: center;
+        }
+    
+        .css-ki1hdl-MuiAlert-action {
+            align-items: center;
+            padding: 0 0 0 16px;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.ms-OverflowSet {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    align-items: center;
+    font-family: 'Roboto', sans-serif !important;
+}
+.ms-OverflowSet-item {
+    a,
+    button {
+        font-family: 'Roboto', sans-serif !important;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 0px 8px;
+        min-width: 124px;
+        height: 36px;
+        border-radius: 4px;
+    }
+}

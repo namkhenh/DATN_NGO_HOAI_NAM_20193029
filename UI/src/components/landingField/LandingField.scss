@@ -1,0 +1,50 @@
+.fields-item {
+    background-color: #d5fdff;
+    border-radius: 8px;
+    position: relative;
+    padding: 42px 20px 20px 20px;
+    margin-top: 29px;
+    box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.3);
+
+    .fields-item-icon {
+        position: absolute;
+        top: -29px; //(32px + 12px * 2 + 1px * 2) / 2
+        background-color: #86f9ff;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+        border-radius: 50%;
+        border: 3px solid #ffffff;
+        img {
+            width: 58px;
+            height: 58px;
+            border-radius: 50%;
+            // background-size: cover;
+            // background-position: center center;
+            object-fit: cover;
+        }
+    }
+
+    .fields-item-title {
+        font-size: 24px;
+        font-weight: 500;
+        color: #0B395C;
+        margin-bottom: 20px;
+    }
+
+    .fields-item-sub-title {
+        font-size: 16px;
+        color: #000000;
+        margin-bottom: 32px;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        display: -webkit-box;
+        word-wrap: break-word;
+        height: 57px;
+    }
+
+    .fields-item-view-more {
+        font-size: 16px;
+        font-weight: 700;
+        color: #0B395C;
+    }
+}

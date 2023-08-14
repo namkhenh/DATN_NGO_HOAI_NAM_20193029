@@ -1,0 +1,81 @@
+.accountmanager-page {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    padding: 24px;
+
+    .accountmanager-page-title {
+        font-size: 24px;
+        font-weight: 500;
+        margin-top: 12px;
+        margin-bottom: 20px;
+    }
+
+    .accountmanager-page-search {
+        margin-bottom: 12px;
+        width: 400px;
+    }
+}
+
+.role-element {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    .role-element-admin,
+    .role-element-doctor,
+    .role-element-care,
+    .role-element-user{
+        border-radius: 4px;
+        padding: 4px 8px;
+        // color: #ffffff;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .role-element-admin{
+        border: 1px solid #ff4646b4;
+        background-color: #ff46463a;
+    }
+    .role-element-doctor {
+        border: 1px solid #51c8ff;
+        background-color: #51c8ff57;
+    }
+    .role-element-care {
+        border: 1px solid #c4ad2afa ;
+        background-color: #ffeb7781;
+    }
+    .role-element-user {
+        border: 1px solid #2da55b86;
+        background-color: #2da55b3a;
+    }
+}
+
+.status-element {
+    display: flex;
+    align-items: center;
+    svg {
+        font-size: 20px;
+        margin-right: 4px;
+    }
+}
+
+.account-create-form {
+    .account-create-wrap {
+        .account-create-field {
+            margin-bottom: 12px;
+    
+        }
+    }
+    label {
+        font-family: 'Roboto', sans-serif !important;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .display-flex {
+        display: flex;
+        align-items: center;
+    }
+}

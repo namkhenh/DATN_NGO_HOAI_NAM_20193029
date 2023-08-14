@@ -1,0 +1,77 @@
+.sidebar {
+    width: 240px;
+    .sidebar-container {
+        padding: 0px;
+        border-radius: 6px;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+        background-color: rgb(247, 249, 252);
+        user-select: none;
+        overflow: hidden;
+
+        .sidebar-item {
+            border-left-width: 0px;
+            border-right-width: 0px;
+            display: block;
+            background-color: white;
+            border: 1px solid transparent;
+            cursor: pointer;
+            font-size: 16px;
+            color: #262626;
+        }
+
+        .sidebar-item-active {
+            color: #2d87f3;
+            border-left-width: 0px;
+            border-right-width: 0px;
+            display: block;
+            background-color: white;
+            border: 1px solid transparent;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        .sidebar-item-wrap {
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            min-height: 48px;
+            padding: 8px 18px;
+            border: 1px solid transparent;
+            justify-content: space-between;
+        }
+
+        .sidebar-sub-menu {
+            display: flex;
+            flex-direction: column;
+            max-height: 0;
+            overflow: hidden;
+            background-color: #f7f9fc;
+
+            .sub-menu-item{
+                align-items: center;
+                border-bottom: 1px solid #dddddd;
+                display: flex;
+                height: 48px;
+                padding: 0 18px 0 54px;
+                transition: border-color .3s;
+                color: #262626;
+                font-size: 16px;
+            }
+
+            &[aria-expanded=true] {
+                max-height: max-content;
+            }
+
+            .sub-menu-item-active {
+                color: #125cb4;
+                align-items: center;
+                border-bottom: 1px solid #dddddd;
+                display: flex;
+                height: 48px;
+                padding: 0 18px 0 54px;
+                transition: border-color .3s;
+                font-size: 16px;
+            }
+        }
+    }
+}

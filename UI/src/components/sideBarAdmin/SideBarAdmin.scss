@@ -1,0 +1,171 @@
+.nav-all-collapes {
+    min-width: 76px;
+    max-width: 76px;
+    .nav-all-container {
+        box-shadow: 2px 0 8px rgba(0, 0, 0, 0.3);
+        background-color: #171d24;
+        height: 100vh;
+        position: relative;
+        top: 0;
+
+        .nav-header {
+            height: 76px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 1px solid #0099a8;
+
+            img {
+                height: 48px;
+                cursor: pointer;
+            }
+        }
+
+        .nav-body {
+            width: 100%;
+            overflow: hidden;
+            margin-top: 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .nav-item-wrap,
+            .nav-item-wrap-selected {
+                height: 56px;
+                margin: 4px 0;
+                width: calc(100% - 8px);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                color: #868f96;
+                transition: all linear 0.3s;
+                border-radius: 8px;
+                cursor: pointer;
+            }
+
+            .nav-item-wrap-selected {
+                background-color: #0099a8;
+                color: #ffffff;
+            }
+            
+            .nav-item-wrap:hover {
+                background-color: #009aa83d;
+                color: #ffffff;
+            }
+
+            .nav-item {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                svg {
+                    font-size: 24px;
+                }
+
+                .nav-item-text {
+                    display: none;
+                }
+            }
+        }
+
+        .nav-footer {
+            position: absolute;
+            width: 100%;
+            bottom: 16px;
+            display: flex;
+            justify-content: center;
+            svg {
+                font-size: 32px;
+                color: #868f96;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.nav-all-expand {
+    min-width: 240px;
+    max-width: 240px;
+    .nav-all-container {
+        box-shadow: 2px 0 8px rgba(0, 0, 0, 0.3);
+        background-color: #171d24;
+        height: 100vh;
+        position: relative;
+        top: 0;
+        .nav-header {
+            height: 76px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #0099a8;
+            img {
+                height: 48px;
+                margin-left: 24px;
+                cursor: pointer;
+            }
+        }
+
+        .nav-body {
+            width: 100%;
+            overflow: hidden;
+            margin-top: 8px;
+            .nav-item-wrap,
+            .nav-item-wrap-selected {
+                height: 56px;
+                margin: 4px 0;
+                display: flex;
+                align-items: center;
+                position: relative;
+                color: #868f96;
+                transition: all linear 0.3s;
+                cursor: pointer;
+                .nav-item {
+                    display: flex;
+                    align-items: center;
+                    margin-left: 24px;
+                    svg {
+                        font-size: 24px;
+                        margin-right: 12px;
+                    }
+    
+                    .nav-item-text {
+                        font-size: 16px;
+                        font-weight: 400;
+                    }
+                }
+
+            }
+            .nav-item-wrap-selected {
+                background: linear-gradient(90deg, rgba(0, 153, 168, 0.1) 0%, rgba(0,
+                153, 168, 0) 100%);
+                color: #ffffff;
+            }
+
+            .nav-item-wrap-selected::after {
+                content: "";
+                position: absolute;
+                inset: 0px;
+                background: none;
+                border-left: 4px solid #0099a8;
+            }
+            .nav-item-wrap:hover {
+                background: linear-gradient(90deg, rgba(0, 153, 168, 0.1) 0%, rgba(0,
+                    153, 168, 0) 100%);
+                color: #ffffff;
+            }
+        }
+
+        .nav-footer {
+            position: absolute;
+            bottom: 16px;
+            right: 16px;
+
+            svg {
+                font-size: 32px;
+                color: #868f96;
+                cursor: pointer;
+            }
+        }
+    }
+}

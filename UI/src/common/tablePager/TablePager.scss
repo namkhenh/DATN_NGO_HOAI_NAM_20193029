@@ -1,0 +1,39 @@
+.css-rorn0c-MuiTableContainer-root{
+    max-height: 532px;
+}
+.css-1ayemiu-MuiTableRow-root {
+    background-color: red !important;
+}
+
+.table-pager-nodata {
+    font-size: 16px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 0;
+    svg {
+        font-size: 124px;
+        color: rgba(0, 0, 0, 0.5);
+    }
+}
+
+.commandbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .selected-items {
+        display: flex;
+        align-items: center;
+        font-style: italic;
+        button {
+            padding: 0;
+            color: rgba(0, 0, 0, 0.5);
+            min-width: 24px;
+            min-height: 24px;
+            border: 1px solid #c5c9ce;
+            margin: 0 12px;
+        }
+    }
+}

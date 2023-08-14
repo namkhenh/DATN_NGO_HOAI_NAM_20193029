@@ -1,0 +1,148 @@
+.profiledetail-page {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    padding: 24px;
+    position: relative;
+    .profiledetail-page-container {
+        max-height: max-content;
+        overflow: auto;
+
+        .profiledetail-page-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #cccccc;
+            padding-bottom: 12px;
+            margin-bottom: 16px;
+            .page-header-left {
+                width: max-content;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .page-patient-name {
+                    font-size: 24px;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                }
+                .page-patient-gender {
+                    padding: 2px 4px;
+                    background-color: #d3ecf3;
+                    border-radius: 4px;
+                    color: #1976d2;
+                    margin: 0 8px;
+                }
+                .page-patient-emergency {
+                    display: flex;
+                    align-items: center;
+
+                    svg {
+                        margin-right: 4px;
+                    }
+                }
+            }
+
+            .page-header-right {
+                button {
+                    max-height: 32px;
+                }
+            }
+        }
+        .profiledetail-page-info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #cccccc;
+            margin-bottom: 12px;
+            .page-info-left {
+                min-width: 150px;
+                min-height: 150px;
+                max-width: 150px;
+                max-height: 150px;
+                background-color: rgba(218, 218, 218, 0.5);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 8px;
+            }
+            .page-info-right {
+                display: grid;
+                grid-template-rows: auto auto auto;
+                grid-template-columns: auto auto auto;
+                row-gap: 8px;
+                width: calc(100% - 200px);
+                .page-info-item {
+                    padding: 4px;
+                }
+            }
+        }
+        .profiledetail-page-cost {
+            display: flex;
+            justify-content: flex-end;
+            gap: 36px;
+            .page-cost-wrap {
+                display: flex;
+                align-items: center;
+                .page-cost-detail {
+                    .cost-detail {
+                        font-weight: 500;
+                        font-size: 16px;
+                    }
+                    .cost-text {
+                        font-size: 14px;
+                    }
+                }
+
+                svg {
+                    padding: 4px;
+                    width: 32px;
+                    height: 32px;
+                    border-radius: 8px;
+                    margin-right: 8px;
+                }
+            }
+            .page-cost-wrap:first-child {
+                svg {
+                    color: rgb(14, 134, 94);
+                    background-color: rgb(215, 255, 213);
+                }
+            }
+            .page-cost-wrap:last-child {
+                svg {
+                    color: rgb(7, 141, 165);
+                    background-color: rgb(163, 244, 255);
+                }
+            }
+        }
+        .profiledetail-sub-title {
+            font-size: 20px;
+            font-weight: 500;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #cccccc;
+            margin-bottom: 12px;
+        }
+
+        .service-table {
+            max-height: 360px;
+        }
+
+        .service-list-button {
+            display: flex;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            justify-content: center;
+            align-items: center;
+            gap: 24px;
+            margin: 24px 24px;
+
+            button {
+                min-width: 100px;
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.admin-layout {
+    display: flex;
+    .admin-layout-content {
+        width: 100%;
+        background-color: #eeeeee;
+
+        .admin-layout-body {
+            padding: 16px;
+            height: calc(100vh - 56px);
+            // background-color: #ffffff;
+            // border-radius: 12px;
+        }
+    }
+}

@@ -1,0 +1,49 @@
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+  min-height: 250px;
+  min-width: 480px;
+  padding: 24px 40px;
+  border-radius: 8px !important;
+  max-width: 700px !important;
+  justify-content: space-between;
+  max-height: calc(100% - 120px) !important;
+  overflow-y: hidden;
+
+  h2 {
+    display: flex;
+    justify-content: space-between;
+    color: #12161b;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 0px 0px 12px 0;
+    border-bottom: 1px solid #c5c9ce;
+    margin-bottom: 24px;
+
+    button {
+      min-width: 34px;
+      min-height: 34px;
+      padding: 0;
+      color: rgba($color: #000000, $alpha: 0.5);
+      width: 24px;
+      height: 24px;
+      border: 1px solid #c5c9ce;
+
+      &:hover {
+        color: rgba($color: #000000, $alpha: 0.7);
+        border: 1px solid #bbbbbb;
+      }
+    }
+  }
+
+  .css-ypiqx9-MuiDialogContent-root {
+    padding: 0;
+
+    p {
+      color: #12161b;
+
+    }
+  }
+
+  .css-hlj6pa-MuiDialogActions-root {
+    padding: 16px 0 8px;
+  }
+}

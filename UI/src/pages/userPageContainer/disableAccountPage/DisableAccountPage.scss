@@ -1,0 +1,34 @@
+.disable-account {
+  width: 1000px;
+
+  .disable-account-icon {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 48px;
+    -webkit-box-pack: center;
+    justify-content: center;
+
+    svg {
+      width: 124px;
+      height: auto;
+      color: rgb(191, 191, 191);
+    }
+  }
+
+  .disable-account-note {
+    margin-bottom: 36px;
+
+    p {
+      font-size: 16px;
+      color: rgb(89, 89, 89);
+    }
+  }
+
+  .disable-account-reason {
+    margin-bottom: 12px;
+  }
+
+  .disable-account-button {
+    margin-top: 24px;
+  }
+}

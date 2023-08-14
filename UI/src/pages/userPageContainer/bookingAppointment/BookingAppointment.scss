@@ -1,0 +1,102 @@
+.booking-appointment {
+  width: 1000px;
+  margin-bottom: 100px;
+
+  .booking-appointment-container {
+    width: 100%;
+    gap: 24px;
+    display: flex;
+
+    .booking-appointment {
+      width: calc(50% - 12px);
+      height: 800px;
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+      padding: 20px 32px;
+      position: relative;
+
+      .booking-new-booking-appointment {
+        position: absolute;
+        bottom: 20px;
+        right: 32px;
+      }
+
+      .booking-appointment-wrap {
+        height: 612px;
+        overflow: auto;
+        padding: 4px;
+        border-bottom: 2px solid #bcbcbc;
+
+        &::-webkit-scrollbar {
+          width: 4px;
+        }
+
+        &::-webkit-scrollbar-track {
+          background-color: transparent;
+        }
+
+        &::-webkit-scrollbar-thumb {
+          background-color: transparent;
+          border-radius: 0px;
+        }
+
+        &:hover::-webkit-scrollbar {
+          width: 4px;
+        }
+
+        &:hover::-webkit-scrollbar-track {
+          background: rgb(211, 211, 211);
+        }
+
+        &:hover::-webkit-scrollbar-thumb {
+          background-color: #bcbcbc;
+          border-radius: 20px;
+        }
+
+        .no-booking-appointment {
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+        }
+      }
+    }
+
+    .booking-appointment-right {
+      width: calc(50% - 12px);
+
+      .booking-appointment-detail {
+        height: 400px;
+        background-color: white;
+        border-radius: 12px;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+        padding: 20px 32px;
+
+        .booking-appointment-wrap {
+          .booking-appointment-item {
+            margin-bottom: 12px;
+          }
+        }
+      }
+
+      .booking-button-wrap {
+        margin: 32px auto 0;
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+      }
+    }
+
+    .booking-appointment-title {
+      font-size: 20px;
+      font-weight: 500;
+      margin-bottom: 12px;
+    }
+
+    .booking-appointment-sub-title {
+      margin-bottom: 12px;
+    }
+  }
+}

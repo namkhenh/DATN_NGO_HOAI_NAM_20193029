@@ -1,0 +1,17 @@
+.patient-profile-form {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    overflow: auto;
+    padding: 2px;
+
+    .patient-profile-field {
+        width: calc(50% - 12px);
+        label {
+            font-size: 16px;
+            font-weight: 500;
+            font-family: "Roboto", sans-serif !important;
+            padding-bottom: 4px;
+        }
+    }
+}

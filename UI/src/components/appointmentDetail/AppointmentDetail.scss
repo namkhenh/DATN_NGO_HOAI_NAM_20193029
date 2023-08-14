@@ -1,0 +1,45 @@
+.appointment-detail {
+    width: 100%;
+    min-width: 424px;
+    .appointment-detail-wrap {
+        margin-bottom: 24px;
+        .appointment-detail-title {
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 4px;
+            margin-left: 14px;
+        }
+        .appointment-detail-info {
+            width: 100%;
+            background-color: #efefef;
+            border-radius: 8px;
+            padding: 12px 14px;
+            .appointment-detail-item {
+                display: flex;
+                justify-content: space-between;
+                padding-bottom: 10px;
+                border-bottom: 1px solid #cccccc;
+                margin-bottom: 12px;
+                .item-field {
+                    width: 35%;
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+                .item-content {
+                    max-width: 65%;
+                    font-size: 16px;
+                    font-weight: 400;
+                    -webkit-line-clamp: 1;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                    display: -webkit-box;
+                }
+                &:last-child {
+                    padding-bottom: 0;
+                    border-bottom: none;
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
